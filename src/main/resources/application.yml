@@ -1,0 +1,22 @@
+server:
+  port: 7071
+  servlet:
+    context-path: /star-loyalty/v1.0.1
+  
+spring:
+  application:
+    name: STAR-LOYALTY-PROGRAM
+
+
+  datasource:
+     url: jdbc:mysql://localhost:3306/bookstall
+     username: root
+     password: root123
+#     driver-class-name: oracle.jdbc.OracleDriver  
+        
+  jpa:
+#    database-platform: org.hibernate.dialect.Oracle10gDialect
+    open-in-view: true
+    hibernate:
+       ddl-auto: create
+       
